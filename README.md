@@ -2,7 +2,7 @@
 
 
 
-This repository contains the code used for the training and evaluation of several Convolutional Neural Network (CNN) models, including the noise-robustness analysis, together with associated test data. 
+This repository contains the code used for the training and evaluation of several Convolutional Neural Network (CNN) models, including the noise-robustness analysis, together with associated test data.
 
 
 
@@ -72,29 +72,31 @@ The scripts read PSF data stored in Feather files. The expected input contains:
 
 psf\_flat — flattened PSF image
 
-c1\_m1tx
+c1\_m1tx — tiltX pair M1
 
-c1\_m1ty
+c1\_m1ty — tiltY pair M1
 
-c2\_m1tx
+c2\_m1tx — tiltX pair M2
 
-c2\_m1ty
+c2\_m1ty — tiltY pair M2
 
-c3\_m1tx
+c3\_m1tx — tiltX pair M3
 
-c3\_m1ty
+c3\_m1ty — tiltY pair M3
 
-c4\_m1tx
+c4\_m1tx — tiltX pair M4
 
-c4\_m1ty
+c4\_m1ty — tiltY pair M4
 
-c1\_m1p
+c1\_m1p — piston pair M1
 
-c2\_m1p
+c2\_m1p — piston pair M2
 
-c3\_m1p
+c3\_m1p — piston pair M3
 
-c4\_m1p
+c4\_m1p — piston pair M4
+
+
 
 The target vector therefore contains 12 regression outputs:
 
