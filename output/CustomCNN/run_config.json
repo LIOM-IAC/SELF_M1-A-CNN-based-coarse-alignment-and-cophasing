@@ -1,0 +1,14 @@
+{
+  "model": "Custom CNN",
+  "random_state": 42,
+  "test_size": 0.2,
+  "batch_size": 16,
+  "epochs": 200,
+  "k_folds": 10,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "patience": 10,
+  "augmentation_fraction": 0.0,
+  "augmentation_snr_min": 20.0,
+  "augmentation_snr_max": 40.0
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "snr_db": 10,
+    "rmse_tiltX": 4.635617256164551,
+    "rmse_tiltX_std": 0.401035338640213,
+    "rmse_tiltY": 4.575888633728027,
+    "rmse_tiltY_std": 0.7330300211906433,
+    "rmse_piston": 25.446208953857422,
+    "rmse_piston_std": 2.374741554260254
+  },
+  {
+    "snr_db": 15,
+    "rmse_tiltX": 4.632651329040527,
+    "rmse_tiltX_std": 0.4006766378879547,
+    "rmse_tiltY": 4.571567535400391,
+    "rmse_tiltY_std": 0.7265771627426147,
+    "rmse_piston": 25.431476593017578,
+    "rmse_piston_std": 2.3761560916900635
+  },
+  {
+    "snr_db": 20,
+    "rmse_tiltX": 4.633411884307861,
+    "rmse_tiltX_std": 0.401128888130188,
+    "rmse_tiltY": 4.569198131561279,
+    "rmse_tiltY_std": 0.7246710658073425,
+    "rmse_piston": 25.4295597076416,
+    "rmse_piston_std": 2.3784031867980957
+  },
+  {
+    "snr_db": 25,
+    "rmse_tiltX": 4.6326470375061035,
+    "rmse_tiltX_std": 0.40126100182533264,
+    "rmse_tiltY": 4.56905460357666,
+    "rmse_tiltY_std": 0.7230203747749329,
+    "rmse_piston": 25.4289608001709,
+    "rmse_piston_std": 2.381082057952881
+  },
+  {
+    "snr_db": 30,
+    "rmse_tiltX": 4.632837295532227,
+    "rmse_tiltX_std": 0.40058428049087524,
+    "rmse_tiltY": 4.568717956542969,
+    "rmse_tiltY_std": 0.723216712474823,
+    "rmse_piston": 25.427125930786133,
+    "rmse_piston_std": 2.381300210952759
+  },
+  {
+    "snr_db": 35,
+    "rmse_tiltX": 4.632684707641602,
+    "rmse_tiltX_std": 0.4003860056400299,
+    "rmse_tiltY": 4.568547248840332,
+    "rmse_tiltY_std": 0.7229300141334534,
+    "rmse_piston": 25.42815399169922,
+    "rmse_piston_std": 2.382244825363159
+  },
+  {
+    "snr_db": 40,
+    "rmse_tiltX": 4.632851600646973,
+    "rmse_tiltX_std": 0.4007522165775299,
+    "rmse_tiltY": 4.568371772766113,
+    "rmse_tiltY_std": 0.7229058146476746,
+    "rmse_piston": 25.427322387695312,
+    "rmse_piston_std": 2.3824093341827393
+  },
+  {
+    "snr_db": 45,
+    "rmse_tiltX": 4.632661819458008,
+    "rmse_tiltX_std": 0.4006974399089813,
+    "rmse_tiltY": 4.568444728851318,
+    "rmse_tiltY_std": 0.722804605960846,
+    "rmse_piston": 25.427392959594727,
+    "rmse_piston_std": 2.3824574947357178
+  },
+  {
+    "snr_db": 50,
+    "rmse_tiltX": 4.632662296295166,
+    "rmse_tiltX_std": 0.4006352424621582,
+    "rmse_tiltY": 4.568415641784668,
+    "rmse_tiltY_std": 0.7228376269340515,
+    "rmse_piston": 25.42742156982422,
+    "rmse_piston_std": 2.3823249340057373
+  }
+]

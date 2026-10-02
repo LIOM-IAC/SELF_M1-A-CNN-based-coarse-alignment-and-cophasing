@@ -1,0 +1,21 @@
+name: zemax-cnn
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - numpy=1.26
+  - pandas=2.1
+  - scikit-learn=1.5
+  - opencv
+  - joblib
+  - pyarrow
+  - pytorch=2.1
+  - torchvision=0.16
+  - pytorch-cuda=11.8
+  - pip
+
