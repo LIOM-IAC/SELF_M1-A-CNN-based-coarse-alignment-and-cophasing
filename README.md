@@ -2,7 +2,9 @@
 
 
 
-This repository code used for the training and evaluation of several Convolutional Neural Network (CNN) models, including the noise-robustness analysis, together with the associated test data.
+This repository contains the code used for the training and evaluation of several Convolutional Neural Network (CNN) models, including the noise-robustness analysis, together with associated test data. 
+
+
 
 These CNN architectures are trained for predicting the perturbations applied to the M1 mirrors of the simplified configuration of SELF (four M1-M2 mirror pairs) from point-spread-function (PSF) data.
 
@@ -58,7 +60,7 @@ The code automatically selects a CUDA GPU when available and otherwise uses the 
 
 **Input data**
 
-A small sample dataset is included in this repository for testing and demonstration purposes. The full dataset is not publicly distributed due to data access restrictions.
+A small sample dataset is included for testing and demonstration. The complete evaluation dataset is not publicly distributed due to data access restrictions.
 
 
 
@@ -146,7 +148,7 @@ output/
 
 &#x20;   └── saved\_models/
 
-&#x20;       └── best\_model\_fold9.pt
+&#x20;       └── best\_model\_fold1.pt
 
 The corresponding StandardScaler.pkl file contains the target-data scaling used during training and must be used when making predictions with the trained model.
 
@@ -246,17 +248,17 @@ Both JSON and CSV formats are produced.
 
 A typical workflow is:
 
-1\. Create the environment
+**1. Create the environment**
 
 conda env create -f environment.yml
 
 conda activate zemax-cnn
 
-2\. Place the supplied data in the expected directory
+**2. Place the supplied data in the expected directory**
 
 The Feather files should be placed in the directory specified by DATA\_DIR in the corresponding script.
 
-3\. Train the models
+**3. Train the models**
 
 python code/train\_and\_test.py
 
@@ -266,7 +268,7 @@ output/data\_split.npz
 
 Subsequent model training runs reuse this same partition.
 
-4\. Evaluate noise robustness
+**4. Evaluate noise robustness**
 
 After the trained model and scaler have been generated:
 
@@ -287,4 +289,16 @@ https://doi.org/10.48550/arXiv.2608.25173
 The repository associated with the paper is:
 
 https://github.com/LIOM-IAC/SELF\_M1-A-CNN-based-coarse-alignment-and-cophasing
+
+
+
+**License**
+
+
+
+The source code in this repository is made available under the MIT License. See the LICENSE file for the full license text.
+
+
+
+The dataset and associated data files are subject to the access and usage conditions described in the Input data section and are not covered by the MIT License unless explicitly stated otherwise.
 
